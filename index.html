@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deji Investment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            <img src="./images/bank logo.jpg" alt="Bank Logo" class="logo">
+        </header>
+
+        <form id="loginForm" class="login-form">
+            <h2>Login to Your Account</h2>
+            
+            <label for="username">Username/Account Number</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+            
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>
+            </div>
+
+            <button type="submit" class="btn-login">Log In</button>
+
+            <div id="error-message" class="error-message"></div>
+
+            <div class="links">
+                <a href="#">Forgot Username?</a>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+
+        <footer>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <p><a href="#">Security Tips</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
