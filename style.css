@@ -94,3 +94,64 @@ footer a {
     text-align: center;
     margin-top: 10px;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+        margin: 30px auto;
+        max-width: 90%; /* Allow container to scale on smaller screens */
+    }
+
+    header .logo {
+        width: 120px; /* Slightly reduce logo size for smaller screens */
+    }
+
+    .login-form h2 {
+        font-size: 20px; /* Adjust font size for small devices */
+    }
+
+    .login-form input {
+        padding: 12px; /* Increase padding inside input fields for ease of use */
+    }
+
+    .btn-login {
+        padding: 12px; /* Make the button a bit bigger on mobile for better tap targets */
+    }
+
+    footer {
+        font-size: 12px; /* Reduce footer text size for mobile */
+    }
+}
+
+/* For very small mobile devices (portrait mode, less than 480px) */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 15px; /* Reduce padding for even smaller screens */
+        max-width: 95%; /* Allow container to almost full width */
+    }
+
+    header .logo {
+        width: 100px; /* Further reduce logo size */
+    }
+
+    .login-form h2 {
+        font-size: 18px; /* Further adjust heading size */
+    }
+
+    .login-form input {
+        padding: 14px; /* More padding for touch screens */
+    }
+
+    .btn-login {
+        padding: 14px; /* Larger button for easier interaction */
+    }
+
+    footer {
+        font-size: 12px; /* Keep footer text small */
+    }
+
+    .links a {
+        font-size: 12px; /* Adjust font size for links */
+    }
+}
